@@ -1,24 +1,46 @@
 = Anypoint Connectors
-:keywords: anypoint, components, elements, connectors
+:keywords: anypoint, components, elements, connectors, transport, defined, studio, exchange
 
-*Anypoint Connectors* facilitate easy integration of your Mule applications with third-party APIs and standard integration protocols. Use connectors within your application's flows to send and receive data using a protocol or specific API. 
+*Anypoint Connectors* facilitate easy integration of your Mule applications with third-party APIs and standard integration protocols. Use connectors within your application's flows to send and receive data using a protocol or specific API. Browse through the current Anypoint Connectors, noting the different APIs used, and the versions of Mule and Studio supported.
+// todo: links to "Mule applications" "third-party APIs" and "standard integration protocols" "Anypoint Connectors"
 
-== Installing
+== Installing a Connector
+
 Anypoint Connectors are bundled with Anypoint Studio, and available for download in link:https://www.mulesoft.com/exchange#!/?types=connector[Anypoint Exchange].
 
-Install connectors using link:https://www.mulesoft.com/exchange#!/?types=connector&sortBy=name[Anypoint Exchange], which is accessible from within Anypoint Studio too. For more information, see link:/mule-fundamentals/v/3.8-m1/anypoint-exchange#installing-a-connector-from-anypoint-exchange[Installing Connectors from Anypoint Exchange].
+See the list of MuleSoft and partner-developed connectors below, along with TCP/IP-supported protocols, including HTTPS, FTP, SMTP and IMAP.
+// todo: fact check terminology on the above and link to location in table. link to "below"
+
+For general connector usage information, see link:/mule-fundamentals/v/3.8-m1/anypoint-exchange#installing-a-connector-from-anypoint-exchange[Installing Connectors from Anypoint Exchange].
+
+== Available Connectors
+
+This is the most up-to-date list of connectors you may use to develop Mule applications.
+
+[cols="4*a", options="header"]
+|===
+|Connector |Description |Category |Compatibility
+|Connector1 |n/a |n/a |n/a
+|Connector2 |n/a |n/a |n/a
+|===
+
+
 
 == Using a Connector
 
-You can configure and use a connector in Anypoint Studio following the guidelines particular to that connector. For a tutorial on basic usage, see our link:/mule-fundamentals/v/3.7/anypoint-connector-tutorial[tutorial] using a simple connector
+// todo: link to Connector User Guide, explaining global elements, properties files, flows, showing example apps, MEL, linking to DevKit or SDK in See Also
+
+You can configure and use almost any connector in Anypoint Studio by following a few general guidelines. For a tutorial on basic usage, see our link:/mule-fundamentals/v/3.7/anypoint-connector-tutorial[tutorial] using a simple connector.
 
 Import additional connectors into your Studio instance, or create applications using connectors outside of Studio by adding them as Maven dependencies or including connector libraries with your project.
 
 For more information, see the link:/mule-user-guide/v/3.8-m1/connectors-user-guide[Connector User Guide].
 
-The following shows the relationship of connectors to other components in the Anypoint Platform:
+Connectors are important components of most applications that use the Mule runtime environment. MuleSoft actively develops and certifies partner-developed connectors (qualified as "MuleSoft Certified") according to a comprehensive testing process. There are several "Community" connectors that enjoy active support by their developer communities.
+// links to: connector category and certified and "here", "comprehensive testing process"
 
-image:AnypointConnectorGraphic.png[AnypointConnectorGraphic]
+//image:AnypointConnectorGraphic.png[AnypointConnectorGraphic]
+// todo: revise or get help to show modern state and higher level architecture of an app using a connector
 
 *Components*
 
@@ -28,7 +50,7 @@ image:AnypointConnectorGraphic.png[AnypointConnectorGraphic]
 * link:https://www.mulesoft.com/exchange[Anypoint Exchange]
 * link:/anypoint-data-gateway/v/1.4.0/installing-anypoint-data-gateway[Anypoint Data Gateway]
 
-== Connector Categories
+== Connector Categories Explained
 
 Connectors fall into one of the following categories. See link:https://www.mulesoft.com/legal/versioning-back-support-policy#anypoint-connectors[Connector Support Policy] for more information.
 
