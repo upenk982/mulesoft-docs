@@ -22,11 +22,10 @@ The table below lists role mappings between Anypoint Platform and Data Gateway.
 |===
 |Anypoint |Data Gateway |Permissions in Data Gateway
 |Organization Owner |Data Gateway Admin |All (no restrictions)
-|CloudHub Admin (Environment) + Organization Administrator |Data Gateway Admin |All (no restrictions)
-|CloudHub Support (Environment) |Data Gateway Viewer a|
-* View gateways
+|Data Gateway Administrator (Environment) |Data Gateway Admin |All (no restrictions)
+|Data Gateway Viewer (Environment) |Data Gateway Viewer a|
+* View gateways and logs
 * View connections
-* Publish to Salesforce
 * View notifications
 * Contact Mulesoft
 
