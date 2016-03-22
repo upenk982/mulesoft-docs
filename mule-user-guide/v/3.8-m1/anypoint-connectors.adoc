@@ -20,6 +20,7 @@ This is the master list of connectors that can be used in Mule applications. See
 === Connector List v1
 
 All connectors in one table
+//Compact, but makes dynamic configuration difficult within table
 
 [cols="4*a", options="header"]
 |===
@@ -32,7 +33,8 @@ All connectors in one table
 
 === Connector List v2
 
-Each connector has its own table
+Each connector has its own table.
+//Compact, but makes dynamic configuration difficult within table
 
 ==== Salesforce Connector
 
@@ -50,6 +52,7 @@ Each connector has its own table
 |===
 
 === Connector List v3
+// highly configurable. Links are in predictable location and release compatibility table can be generated without manipulation
 
 Each connector with description, links and compatibility table
 
