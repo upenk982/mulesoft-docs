@@ -17,12 +17,60 @@ For general connector usage information, see link:/mule-fundamentals/v/3.8-m1/an
 
 This is the master list of connectors that can be used in Mule applications. See the *Description* for a link to the technical reference (Javadoc) for the connector.
 
+=== Connector List v1
+
+All connectors in one table
+
 [cols="4*a", options="header"]
 |===
 |Connector |Description |Category |Compatibility
-|Salesforce |Synchronize data and automate business operations |Select |n/a
-|Amazon SNS |Simple Notification Service from Amazon |n/a |n/a
+|Salesforce |Synchronize data and automate business operations
+|Select |n/a
+|Amazon SNS |Simple Notification Service from Amazon |n/a |*Newest Version*: x.y
+*Anypoint Studio Version*: b.c.d.
 |===
+
+=== Connector List v2
+
+Each connector has its own table
+
+==== Salesforce Connector
+
+
+[cols="3*a", options="header"]
+|===
+|Description |Compatibility |Documentation
+|Synchronize data and automate business operations
+|*Newest Connector Version*: x.y.z.
+*Mule Version*: 3.6
+*Anypoint Studio Version*: b.c.d.
+|* User Guide
+* Technical Reference
+* Release Notes
+|===
+
+=== Connector List v3
+
+Each connector with description, links and compatibility table
+
+==== Salesforce Connector
+
+Synchronize data and automate business operations
+
+* User Guide
+* Technical Reference
+* Release Notes
+
+===== Salesforce Connector Compatibility
+
+[width="100%",cols="50a,50a",options="header"]
+|===
+|Application/Service|Version
+|Mule Runtime|Mule Enterprise Edition 3.5.2 and newer
+|Anypoint Studio|Only works with Studio 5.4.0 and newer
+|Salesforce|v32.0 to v34.0
+|===
+
 
 
 
