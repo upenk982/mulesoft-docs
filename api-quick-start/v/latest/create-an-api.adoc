@@ -317,6 +317,7 @@ queryParameters:
           description: Retrieve the status of an order with the same email that was used to place the order.
           pattern: ^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$
           required: true
+          example: "my@mail.com"
 ----
 
 link:_attachments/t-shirt.raml[Download the entire RAML].
