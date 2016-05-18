@@ -138,13 +138,13 @@ Notice how each of these actions you performed creates a line in the DataWeave c
 ---
 {
 	ns0#OrderTshirt: {
-		email: payload.buyer.email,
-		name: payload.buyer.name,
-		address1: payload.buyer.address,
-		city: payload.buyer.city,
-		stateOrProvince: payload.buyer.state,
-		postalCode: payload.buyer.postCode,
-		country: payload.buyer.nationality
+		ns0#email: payload.buyer.email,
+		ns0#name: payload.buyer.name,
+		ns0#address1: payload.buyer.address,
+		ns0#city: payload.buyer.city,
+		ns0#stateOrProvince: payload.buyer.state,
+		ns0#postalCode: payload.buyer.postCode,
+		ns0#country: payload.buyer.nationality
 	}
 }
 ----
@@ -171,15 +171,15 @@ image:dw_tut1_fixed_vals.png[fixed vals]
 ---
 {
     ns0#OrderTshirt: {
-        size: "M" unless payload.buyer.state == "TX" otherwise "XXL",
-        email: payload.buyer.email,
-        name: payload.buyer.name,
-        address1: payload.buyer.address,
-        address2: "????",
-        city: payload.buyer.city,
-        stateOrProvince: payload.buyer.state,
-        postalCode: payload.buyer.postCode,
-        country: payload.buyer.nationality
+        ns0#size: "M" unless payload.buyer.state == "TX" otherwise "XXL",
+        ns0#email: payload.buyer.email,
+        ns0#name: payload.buyer.name,
+        ns0#address1: payload.buyer.address,
+        ns0#address2: "????",
+        ns0#city: payload.buyer.city,
+        ns0#stateOrProvince: payload.buyer.state,
+        ns0#postalCode: payload.buyer.postCode,
+        ns0#country: payload.buyer.nationality
     }
 }
 ----
@@ -239,15 +239,15 @@ You should get a response with an XML body that has a single value, this is the 
 ---
 {
     ns0#OrderTshirt: {
-        size: "M" unless payload.buyer.state == "TX" otherwise "XXL",
-        email: payload.buyer.email,
-        name: payload.buyer.name,
-        address1: payload.buyer.address,
-        address2: null,
-        city: payload.buyer.city,
-        stateOrProvince: payload.buyer.state,
-        postalCode: payload.buyer.postCode,
-        country: payload.buyer.nationality
+        ns0#size: "M" unless payload.buyer.state == "TX" otherwise "XXL",
+        ns0#email: payload.buyer.email,
+        ns0#name: payload.buyer.name,
+        ns0#address1: payload.buyer.address,
+        ns0#address2: null,
+        ns0#city: payload.buyer.city,
+        ns0#stateOrProvince: payload.buyer.state,
+        ns0#postalCode: payload.buyer.postCode,
+        ns0#country: payload.buyer.nationality
     }
 }]]></dw:set-payload>
         </dw:transform-message>
@@ -265,15 +265,15 @@ You should get a response with an XML body that has a single value, this is the 
 ---
 {
     ns0#OrderTshirt: {
-        size: "M" unless payload.buyer.state == "TX" otherwise "XXL",
-        email: payload.buyer.email,
-        name: payload.buyer.name,
-        address1: payload.buyer.address,
-        address2: null,
-        city: payload.buyer.city,
-        stateOrProvince: payload.buyer.state,
-        postalCode: payload.buyer.postCode,
-        country: payload.buyer.nationality
+        ns0#size: "M" unless payload.buyer.state == "TX" otherwise "XXL",
+        ns0#email: payload.buyer.email,
+        ns0#name: payload.buyer.name,
+        ns0#address1: payload.buyer.address,
+        ns0#address2: null,
+        ns0#city: payload.buyer.city,
+        ns0#stateOrProvince: payload.buyer.state,
+        ns0#postalCode: payload.buyer.postCode,
+        ns0#country: payload.buyer.nationality
     }
 }
 ----
